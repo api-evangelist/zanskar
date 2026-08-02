@@ -1,0 +1,28 @@
+# Zanskar
+
+> Zanskar (Zanskar Geothermal & Minerals, Inc.) is a Salt Lake City-based geothermal energy company founded in 2021 that uses custom artificial intelligence, machine learning, and subsurface geoscience to discover and develop conventional geothermal resources. Backed by Obvious Ventures and Union Square Ventures. Zanskar publishes public geothermal datasets on the Snowflake Marketplace; it does not currently expose a public developer API.
+
+## About
+
+- [Website](https://zanskar.com): Company homepage.
+- [Our Work](https://zanskar.com/ourwork): How Zanskar discovers and develops geothermal resources.
+- [Careers](https://zanskar.com/careers): Open roles.
+- [Blog](https://www.zanskar.com/blog): Geothermal hot takes and company news.
+
+## Data
+
+- [Snowflake Marketplace](https://app.snowflake.com/marketplace): Zanskar publishes publicly available geothermal datasets on the Snowflake Marketplace (data share, not a REST API).
+
+## Legal
+
+- [Privacy Policy](https://www.zanskar.com/zanskar-privacy-policy): How Zanskar handles publicly available data hosted on the Snowflake Marketplace.
+- [Terms & Conditions](https://www.zanskar.com/tc02): Purchase-order and vendor terms.
+
+## Artifacts
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/zanskar/refs/heads/main/apis.yml): API Evangelist network profile for Zanskar.
+- [Domain Security](https://raw.githubusercontent.com/api-evangelist/zanskar/refs/heads/main/security/zanskar-domain-security.yml): Probed TLS/HSTS/DNS posture for zanskar.com.
+
+## Notes
+
+- No public developer API, OpenAPI/AsyncAPI specification, SDK, CLI, or MCP server was found for Zanskar as of 2026-07-21. This profile carries company identity and probed domain-security posture only.

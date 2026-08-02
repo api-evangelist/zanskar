@@ -1,8 +1,13 @@
 aid: zanskar
 name: Zanskar
-description: 'Zanskar is a company surfaced as a portfolio company of obvious-ventures, union-square-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: planetary-health. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Zanskar (Zanskar Geothermal & Minerals, Inc.) is a Salt Lake City-based
+  geothermal energy company founded in 2021 by Carl Hoiland and Joel Edwards. It uses
+  custom artificial intelligence, machine learning, and subsurface geoscience to discover
+  and develop conventional geothermal resources, with a mission to make geothermal
+  the most affordable form of widely-deployable, 24/7 carbon-free power. The company
+  raised a $115M Series C and is backed by Obvious Ventures and Union Square Ventures.
+  Zanskar publishes public geothermal datasets on the Snowflake Marketplace; it does
+  not currently expose a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/zanskar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +16,30 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://zanskar.com/_assets/v11/6751b4a1984903b7c86852090e94ec3d6728d42e.png
 tags:
 - Company
 - Planetary Health
+- Geothermal
+- Energy
+- Clean Energy
+- Climate
+- Artificial Intelligence
+- Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zanskar-domain-security.yml
+- type: LLMsTxt
+  url: llms/zanskar-llms.txt
 - type: Website
   url: https://zanskar.com
+- type: Blog
+  url: https://www.zanskar.com/blog
+- type: PrivacyPolicy
+  url: https://www.zanskar.com/zanskar-privacy-policy
+- type: TermsOfService
+  url: https://www.zanskar.com/tc02
+- type: Careers
+  url: https://zanskar.com/careers
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
